@@ -84,7 +84,6 @@ img {
   align-items: center;
   font-weight: 700;
   font-size: 18px;
-  padding: 0 15px 0 15px;
   margin-right: 76px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -115,28 +114,37 @@ img {
 }
 
 .header-navigation__list {
- 
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
 
 .header-navigation__list-item .link-element {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 0px;
 }
 
 .header-address {
   font-style: normal;
+  padding: 0 15px 0 15px;
 }
 
 .header-address__list {
   display: flex;
   align-items: center;
+  gap: 40px;
+  margin-right: 40px
+  
+
 }
 
 .header-address__list .address-link {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 0px;
 }
 
 /* HERO SECTIOIN */
