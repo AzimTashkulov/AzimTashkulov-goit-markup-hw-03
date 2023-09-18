@@ -23,10 +23,6 @@ a {
   text-decoration: none;
 }
 
-div {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .link-element {
   color: #2e2f42;
 }
@@ -101,9 +97,12 @@ div {
   display: flex;
 }
 
-.header-navigation__list {
+.header-navigation {
   display: flex;
   align-items: center;
+}
+
+.header-navigation__list {
   padding: 0 15px 0 15;
 }
 
