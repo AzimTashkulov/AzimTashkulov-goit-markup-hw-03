@@ -84,6 +84,8 @@ img {
   align-items: center;
   font-weight: 700;
   font-size: 18px;
+  padding: 0 15px 0 15px;
+  margin-right: 76px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -117,8 +119,6 @@ img {
 }
 
 .header-navigation__list-item .link-element {
-  padding-left: 15px;
-  padding-right: 15px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -141,6 +141,7 @@ img {
 
 /* HERO SECTIOIN */
 .hero-section {
+  padding: 188px 0 188;
   background-color: #2e2f42;
   color: #ffffff;
 }
@@ -154,11 +155,16 @@ img {
 }
 
 .hero-section__button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: inherit;
+  border-radius: 4px;
   cursor: pointer;
 }
 
