@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+div {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .link-element {
   color: #2e2f42;
 }
@@ -76,6 +80,7 @@ a {
 /* HEADER */
 .header-logo {
   font-family: Raleway, sans-serif;
+  align-items: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -85,17 +90,21 @@ a {
 }
 
 .header-logo:visited {
-  display: flex;
-  align-items: center;
   color: #4d5ae5;
 }
- 
+
 .header-logo:visited {
   color: #4d5ae5;
 }
 
+.header.container {
+  display: flex;
+}
+
 .header-navigation__list {
-  padding: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 15;
 }
 
 .header-navigation__list-item .link-element {
@@ -189,6 +198,12 @@ a {
 }
 
 .our-team-section__list {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 .our-team-section__list-description {
