@@ -4,6 +4,21 @@ body {
   background-color: #ffffff;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -54,7 +69,8 @@ a {
 }
 
 .container {
-  padding: 120px 156px;
+  padding: 120px 0;
+  width: 1158px;
 }
 
 /* HEADER */
@@ -79,7 +95,6 @@ a {
 }
 
 .header-navigation__list {
-  list-style: none;
   padding: 0;
 }
 
@@ -96,7 +111,6 @@ a {
 .header-address__list {
   display: flex;
   align-items: center;
-  list-style: none;
 }
 
 .header-address__list .address-link {
@@ -140,7 +154,6 @@ a {
 }
 
 .about-us-section__list {
-  list-style: none;
 }
 
 .heading-title {
@@ -176,7 +189,6 @@ a {
 }
 
 .our-team-section__list {
-  list-style: none;
 }
 
 .our-team-section__list-description {
@@ -190,7 +202,6 @@ a {
 }
 
 .our-team-section__list {
-  list-style: none;
 }
 
 /* FOOTER */
