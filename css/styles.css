@@ -27,6 +27,7 @@ img {
   display: block;
 }
 
+
 .link-element {
   color: #2e2f42;
 }
@@ -82,13 +83,14 @@ img {
   display: flex;
   font-family: Raleway, sans-serif;
   align-items: center;
+  line-height: 1.17;
   font-weight: 700;
   font-size: 18px;
   margin-right: 76px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 0 15px 0 15px;
 }
 
 .header-logo:visited {
@@ -101,14 +103,14 @@ img {
 
 .header.container {
   display: flex;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
   display: flex;
   align-items: center;
 }
- 
+
 .container {
   display: flex;
 }
@@ -126,18 +128,17 @@ img {
   margin-right: 0px;
 }
 
+
 .header-address {
   font-style: normal;
-  padding: 0 15px 0 15px;
 }
 
 .header-address__list {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-right: 40px
-  
-
+  margin-right: 40px;
+  padding: 24px 0 24px;
 }
 
 .header-address__list .address-link {
@@ -149,17 +150,19 @@ img {
 
 /* HERO SECTIOIN */
 .hero-section {
-  padding: 188px 0 188;
   background-color: #2e2f42;
   color: #ffffff;
+  padding: 188px 0 188px;
 }
 
 .hero-section__title {
+  max-width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  
 }
 
 .hero-section__button {
@@ -181,16 +184,22 @@ img {
   background-color: #404bbf;
 }
 
+
 /* ABOUT US SECTION */
 .about-us-section__content {
+  padding: 120px 0 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .about-us-section__list {
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
 }
 
 .heading-title {
+  width: calc((100% - 72px) / 4);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -199,6 +208,11 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+.container .heading-title {
+  margin-bottom: 8px;
+}
+
 
 /* OUR TEAM SECTION */
 .our-team-section {
@@ -235,6 +249,7 @@ img {
   text-align: center;
 }
 
+
 /* OUR PORTFOLIO SECTION */
 
 .our-portfolio-section__description p {
@@ -243,6 +258,7 @@ img {
 
 .our-team-section__list {
 }
+
 
 /* FOOTER */
 .footer {
@@ -272,3 +288,4 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
