@@ -100,28 +100,29 @@ img {
 
 .header-logo:visited {
   color: #4d5ae5;
+  padding: 0 15px 0 15px;
 }
 
 
 .header.container {
+  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
-flexbox container {
-  display: flex;
-  padding: 0 15px 0 15px;
-}
+
 
 .header-navigation {
   align-items: center;
- 
+  display: flex;
 }
 
 
 .header-navigation__list {
+  display: flex;
   gap: 40px;
   margin-right: 40px;
   padding: 0 15px 0 15px,
+  
 }
 
 .header-navigation__list-item .link-element {
@@ -141,10 +142,11 @@ flexbox container {
   align-items: center;
   gap: 40px;
   margin-right: 40px;
-  padding: 24px 0 24px;
+  
 }
 
 .header-address__list .address-link {
+  display: flex;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -158,10 +160,6 @@ flexbox container {
   padding: 188px 0 188px;
  
   width: calc((100% - 72px) / 4);
-}
-
-.visually-hidden {
-
 }
 
 .hero-section__title {
@@ -200,15 +198,14 @@ flexbox container {
 .about-us-section__content {
   line-height: 1.5;
   letter-spacing: 0.02em;
- 
+  padding: 120px 0 120px;
 }
 
 .about-us-section__list {
   display: flex;
   gap: 24px;
   margin-right: 24px;
-  padding: 120px 0 120px
-  
+  flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .heading-title {
@@ -220,6 +217,11 @@ flexbox container {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-bottom: 8px;
+}
+
+.visually-hidden {
+
 }
 
 .container .heading-title {
