@@ -104,19 +104,21 @@ img {
 
 
 .header.container {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-navigation {
+flexbox container {
   display: flex;
+  padding: 0 15px 0 15px;
+}
+
+.header-navigation {
   align-items: center;
  
 }
 
 
 .header-navigation__list {
-  display: flex;
   gap: 40px;
   margin-right: 40px;
   padding: 0 15px 0 15px,
@@ -136,7 +138,6 @@ img {
 }
 
 .header-address__list {
-  display: flex;
   align-items: center;
   gap: 40px;
   margin-right: 40px;
@@ -155,6 +156,12 @@ img {
   background-color: #2e2f42;
   color: #ffffff;
   padding: 188px 0 188px;
+ 
+  width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+
 }
 
 .hero-section__title {
@@ -164,7 +171,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  
+  margin-bottom: 8px;
 }
 
 .hero-section__button {
@@ -179,6 +186,7 @@ img {
   color: inherit;
   border-radius: 4px;
   cursor: pointer;
+  flex-basis: calc((100% - 72px) / 4)
 }
 
 .hero-section__button:hover,
@@ -187,21 +195,23 @@ img {
 }
 
 
+
 /* ABOUT US SECTION */
 .about-us-section__content {
-  padding: 120px 0 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+ 
 }
 
 .about-us-section__list {
   display: flex;
   gap: 24px;
   margin-right: 24px;
+  padding: 120px 0 120px
+  
 }
 
 .heading-title {
-  width: calc((100% - 72px) / 4);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -209,12 +219,16 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .container .heading-title {
   margin-bottom: 8px;
 }
 
+ .visually-hidden {
+
+ }
 
 /* OUR TEAM SECTION */
 .our-team-section {
@@ -259,7 +273,9 @@ img {
 }
 
 .our-team-section__list {
+   
 }
+
 
 
 /* FOOTER */
