@@ -363,8 +363,11 @@ img {
 }
 
 .footer-logo-logo {
-  display: inline-block;
   margin-bottom: 16px;
+}
+
+.flexboks {
+  display: inline-block;
 }
 
 .footer-content {
