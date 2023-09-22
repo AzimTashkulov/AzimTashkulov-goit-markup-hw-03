@@ -21,7 +21,6 @@ p {
 
 a {
   text-decoration: none;
-  display: inline-block;
 }
 
 img {
@@ -347,6 +346,7 @@ img {
 }
 
 .footer-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-weight: 700;
@@ -356,7 +356,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-logo .logo-accent {
