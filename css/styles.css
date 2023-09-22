@@ -337,6 +337,7 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
+  display: inline-block;
   justify-content: center;
 }
 
@@ -358,7 +359,6 @@ img {
 
 .footer-logo .logo-accent {
   color: #f4f4fd;
-  display: inline-block;
 }
 
 .footer-logo {
