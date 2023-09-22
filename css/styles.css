@@ -229,7 +229,8 @@ img {
 }
 
 .visually-hidden {
-  display: none;
+  position: fixed;
+  transform: scale(0);
 }
 
 /* OUR TEAM SECTION */
@@ -344,14 +345,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo .logo-accent {
   color: #f4f4fd;
-}
-
-.footer-logo {
-  display: inline-block;
 }
 
 .footer-logo:visited {
