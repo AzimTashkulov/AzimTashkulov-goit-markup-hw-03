@@ -29,6 +29,7 @@ img {
 
 .link-element {
   color: #2e2f42;
+  display: inline-block;
 }
 
 .link-element:visited {
@@ -229,8 +230,9 @@ img {
 }
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 
 /* OUR TEAM SECTION */
@@ -333,6 +335,10 @@ img {
 .footer .container {
   flex-direction: column;
   align-items: flex-start;
+}
+
+.footer a {
+  display: inline-block;
 }
 
 .footer-logo {
