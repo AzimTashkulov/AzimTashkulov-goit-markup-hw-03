@@ -265,8 +265,6 @@ img {
   background-color: #ffffff;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: 264px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .our-team-section__list-description {
@@ -368,6 +366,8 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  flex-basis: 264px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .footer-content {
@@ -375,4 +375,3 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* FOOTER */
