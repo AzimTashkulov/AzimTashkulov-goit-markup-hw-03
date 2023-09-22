@@ -254,7 +254,7 @@ img {
   flex-direction: column;
 }
 
-.our-team-section__list {
+.our-team-section__list { 
   gap: 24px;
 }
 
@@ -317,7 +317,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
-
+                               
 .our-portfolio-section__list-item {
   width: calc((100% - 48px) / 3);
 }
@@ -358,6 +358,11 @@ img {
 
 .footer-logo .logo-accent {
   color: #f4f4fd;
+}
+
+.features-list-item {
+  flex-basis: 264px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .footer-logo {
