@@ -21,6 +21,7 @@ p {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 img {
@@ -364,11 +365,6 @@ img {
 
 .footer-logo:visited {
   color: #4d5ae5;
-}
-
-.webstudio {
-  justify-content: center;
-  display: inline-block;
 }
 
 .footer-content {
