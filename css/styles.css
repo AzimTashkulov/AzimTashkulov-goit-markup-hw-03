@@ -258,10 +258,15 @@ img {
   gap: 24px;
 }
 
+.features-list-item {
+  
+}
 .our-team-section__list-item {
   background-color: #ffffff;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: 264px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .our-team-section__list-description {
@@ -358,11 +363,6 @@ img {
 
 .footer-logo .logo-accent {
   color: #f4f4fd;
-}
-
-.features-list-item {
-  flex-basis: 264px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .footer-logo {
