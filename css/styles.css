@@ -345,11 +345,6 @@ img {
   align-items: flex-start;
 }
 
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -365,8 +360,9 @@ img {
   color: #f4f4fd;
 }
 
-.footer-logo:visited {
-  color: #4d5ae5;
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-content {
