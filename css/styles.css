@@ -354,7 +354,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .footer-logo .logo-accent {
@@ -366,6 +365,7 @@ img {
 }
 
 .footer-content {
+  display: inline-block;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
