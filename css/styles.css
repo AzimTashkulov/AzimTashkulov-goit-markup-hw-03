@@ -112,6 +112,7 @@ img {
   align-items: center;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-navigation {
@@ -189,7 +190,6 @@ img {
   color: inherit;
   border-radius: 4px;
   cursor: pointer;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .hero-section__button:hover,
@@ -229,7 +229,7 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  display: none;
 }
 
 /* OUR TEAM SECTION */
