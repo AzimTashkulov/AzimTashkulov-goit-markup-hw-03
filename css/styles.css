@@ -367,7 +367,8 @@ img {
 
 .footer-logo-logo {
   margin-bottom: 16px;
-  
+  display: inline-block;
+  display: flex;
 }
 
 .footer-content {
@@ -376,6 +377,3 @@ img {
   letter-spacing: 0.02em;
 }
 
-flex-container {
-  display: inline-block;
-}
