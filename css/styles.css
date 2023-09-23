@@ -14,7 +14,10 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  margin: 0;
+}
+
 p {
   margin: 0;
 }
@@ -364,14 +367,15 @@ img {
 
 .footer-logo-logo {
   margin-bottom: 16px;
-}
-
-.flexboks {
-  display: inline-block;
+  
 }
 
 .footer-content {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+flex-container {
+  display: inline-block;
 }
