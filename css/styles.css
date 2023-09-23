@@ -81,13 +81,11 @@ img {
 
 /* HEADER */
 .header {
-  display: flex;
   justify-content: center;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
-  display: flex;
   font-family: Raleway, sans-serif;
   align-items: center;
   line-height: 1.17;
