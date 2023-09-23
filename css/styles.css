@@ -366,6 +366,10 @@ img {
   margin-bottom: 16px;
 }
 
+footer {
+  display: block;
+}
+
 .footer-content {
   color: #f4f4fd;
   line-height: 1.5;
