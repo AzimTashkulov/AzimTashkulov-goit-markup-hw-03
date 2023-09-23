@@ -336,6 +336,7 @@ img {
 /* FOOTER */
 .footer {
   display: flex;
+  display: inline-block;
   background-color: #2e2f42;
   padding: 100px 0;
   justify-content: center;
@@ -362,12 +363,7 @@ img {
 }
 
 .footer-logologo {
-  display: inline-block;
   margin-bottom: 16px;
-}
-
-footer {
-  display: block;
 }
 
 .footer-content {
