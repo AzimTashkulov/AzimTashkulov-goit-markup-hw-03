@@ -14,9 +14,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-}
+h6, 
 
 p {
   margin: 0;
@@ -368,7 +366,6 @@ img {
 .footer-logo-logo {
   margin-bottom: 16px;
   display: inline-block;
-  display: flex;
 }
 
 .footer-content {
