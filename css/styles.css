@@ -335,6 +335,7 @@ img {
 /* FOOTER */
 .footer {
   display: flex;
+  display: inline-block;
   background-color: #2e2f42;
   padding: 100px 0;
   justify-content: center;
@@ -347,13 +348,13 @@ img {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-logo .logo-accent {
@@ -362,10 +363,6 @@ img {
 
 .footer-logo {
   margin-bottom: 16px;
-}
-
-.footer-logo logo {
-  display: inline-block;
 }
 
 .footer-content {
