@@ -358,10 +358,11 @@ img {
 
 .footer-logo .logo-accent {
   color: #f4f4fd;
+}
+
+.footer-logo .logo {
   margin-bottom: 16px;
   display: inline-block;
-}
-.footer-logo .logo {
 }
 
 .footer-content {
