@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 
-  ul {
+ul {
   list-style: none;
   padding: 0;
 }
@@ -15,8 +15,7 @@ h3,
 h4,
 h5,
 h6,
-
- p {
+p {
   margin: 0;
 }
 
@@ -358,11 +357,14 @@ img {
 }
 
 .footer-logo .logo-accent {
-  display: inline-block;
   color: #f4f4fd;
 }
 
-.footer-logo { 
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-logo {
   margin-bottom: 16px;
 }
 
@@ -371,5 +373,3 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-
