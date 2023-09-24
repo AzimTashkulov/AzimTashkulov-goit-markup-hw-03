@@ -361,11 +361,11 @@ img {
 }
 
 .footer-logo {
-  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.footer-logo {
-  margin-bottom: 16px;
+.footer-logo logo {
+  display: inline-block;
 }
 
 .footer-content {
