@@ -361,8 +361,7 @@ img {
   color: #f4f4fd;
 }
 
-.footer-logo {
-  display: inline-block;
+.footer-logo { 
   margin-bottom: 16px;
 }
 
@@ -370,4 +369,7 @@ img {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: inline-block;
 }
+
+
