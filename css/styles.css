@@ -360,9 +360,9 @@ img {
   color: #f4f4fd;
 }
 
-.footer-logo logo {
-  display: inline-block;
+.footer-logo .logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-content {
