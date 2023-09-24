@@ -4,9 +4,9 @@ body {
   background-color: #ffffff;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
-  padding: 0;
 }
 
 h1,
@@ -15,8 +15,10 @@ h3,
 h4,
 h5,
 h6,
-p {
+p 
+ul {
   margin: 0;
+  padding: 0;
 }
 
 a {
