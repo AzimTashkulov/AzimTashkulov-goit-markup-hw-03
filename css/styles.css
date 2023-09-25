@@ -364,7 +364,7 @@ img {
   color: #f4f4fd;
 }
 
-.footer-logo logo {
+.footer-logo .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
