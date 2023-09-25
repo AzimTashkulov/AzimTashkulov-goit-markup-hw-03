@@ -358,6 +358,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo .logo-accent {
@@ -365,8 +367,7 @@ img {
 }
 
 .footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
+  
 }
 
 .footer-content {
