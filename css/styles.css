@@ -107,6 +107,7 @@ img {
 }
 
 .container {
+  display: flex;
   align-items: center;
   width: 1158px;
   padding: 0 15px;
@@ -177,7 +178,6 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .hero-section__button {
@@ -192,6 +192,7 @@ img {
   color: inherit;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 8px;
 }
 
 .hero-section__button:hover,
