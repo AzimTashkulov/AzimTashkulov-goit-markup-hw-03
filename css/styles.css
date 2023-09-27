@@ -127,6 +127,7 @@ img {
   gap: 40px;
   margin-right: 40px;
   padding: 0 15px 0 15px;
+  margin: 0;
 }
 
 .header-navigation__list-item .link-element {
@@ -147,6 +148,7 @@ img {
   gap: 40px;
   margin-right: 40px;
   display: flex;
+  padding: 0;
 }
 
 .header-address__list .address-link {
@@ -162,8 +164,6 @@ img {
   background-color: #2e2f42;
   color: #ffffff;
   padding: 188px 0 188px;
-  display: flex;
-  justify-content: center;
 }
 
 .hero-section .container {
@@ -177,6 +177,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto 48px;
 }
 
 .hero-section__button {
@@ -192,6 +193,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 8px;
+  margin: 0 auto;
 }
 
 .hero-section__button:hover,
@@ -217,6 +219,7 @@ img {
 
 .about-us-section__list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  margin: 0;
 }
 
 .heading-title {
@@ -246,8 +249,6 @@ img {
 
 /* OUR TEAM SECTION */
 .our-team-section {
-  display: flex;
-  justify-content: center;
   background-color: #f4f4fd;
 }
 
@@ -257,6 +258,7 @@ img {
 
 .our-team-section__list {
   gap: 24px;
+  margin: 0;
 }
 
 .features-list-item {
@@ -278,13 +280,13 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
+  float: left;
 }
 
 .our-team-section__list-item__content {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  float: left;
 }
 
 .our-team-section__list {
@@ -304,9 +306,7 @@ img {
 /* OUR PORTFOLIO SECTION */
 
 .our-portfolio-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .our-portfolio-section .container {
@@ -319,6 +319,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
 }
 
 .our-portfolio-section__list-item {
@@ -340,7 +341,6 @@ img {
   display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
-  justify-content: center;
 }
 
 .footer .container {
@@ -372,4 +372,5 @@ img {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px
 }
