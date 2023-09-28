@@ -126,7 +126,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 40px;
-  padding: 0 15px 0 15px;
+  padding: 0;
   margin: 0;
 }
 
@@ -146,7 +146,7 @@ img {
 .header-address__list {
   align-items: center;
   gap: 40px;
-  margin-right: 40px;
+  margin: 0;
   display: flex;
   padding: 0;
 }
@@ -214,7 +214,7 @@ img {
 .about-us-section__list {
   display: flex;
   gap: 24px;
-  margin-right: 24px;
+  margin: 0;
 }
 
 .about-us-section__list-item {
@@ -280,13 +280,11 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  float: left;
 }
 
 .our-team-section__list-item__content {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  float: left;
 }
 
 .our-team-section__list {
@@ -296,7 +294,6 @@ img {
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin-bottom: 72px;
 }
 
 .our-team-section__list-description {
@@ -338,7 +335,6 @@ img {
 
 /* FOOTER */
 .footer {
-  display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
 }
